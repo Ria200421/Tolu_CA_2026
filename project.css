@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Project_body{
     background: linear-gradient(to top, #000000, #101129); 
     background-size: cover;
@@ -15,3 +16,22 @@ h1:hover{
     font-size: 40px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(101, 122, 171, 0.5);
 }
+=======
+#Project_body{
+    background: linear-gradient(to top, #000000, #101129); 
+    background-size: cover;
+    position: relative; 
+    z-index: 10; 
+    text-decoration: wavy;
+    color: aqua;
+}
+h1{
+    color: rgb(78, 30, 30);
+    font-size: 40px;
+}
+h1:hover{
+    color: rgb(78, 30, 30);
+    font-size: 40px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(101, 122, 171, 0.5);
+}
+>>>>>>> 3adfaba (final)

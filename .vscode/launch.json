@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+<<<<<<< HEAD
+        
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open Profile_skills.html",
+            "file": "c:\\Users\\NEW\\Tolu_isms_121_projects\\isms-121-project_2026\\Video\\Profile_skills.html"
+=======
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open CatApp.html",
+            "file": "${file}"
+>>>>>>> 76617a1eb30122dc006df4e64e3fab619240ce07
+        }
+    ]
+}

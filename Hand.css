@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 header {
     display: flex;
     justify-content: space-between;
@@ -32,39 +32,4 @@ footer{
     font-size: 14px;
     color: rgb(80, 17, 26);
     font-size: 50px;
-=======
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 40px;
-    background: linear-gradient(to top, #000000, #101129); 
-    background-size: cover;
-    position: relative; 
-    z-index: 10; 
-    text-decoration: wavy;
-    color: aqua;
-}
-.navigation{
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 20px;
-    font-size: 20px;
-    text-align: end;
-}
-footer{
-    background: linear-gradient(to top, #000000, #101129);
-}
-.Parent_Footer{
-    display:flex;
-    align-items: center;
-    gap: 20px;
-    margin-left: 80%;
-}
-#Tolu{
-    text-align: center;
-    font-size: 14px;
-    color: rgb(80, 17, 26);
-    font-size: 50px;
->>>>>>> 3adfaba (final)
 }

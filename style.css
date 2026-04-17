@@ -59,7 +59,7 @@ body {
     max-width: 400px;
     align-items: end;
 }
-.heading{
+.featured{
     display: flex;
     flex-direction: column; 
     align-items: flex-end;    
@@ -72,12 +72,12 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
-.heading h2 {
+.heading {
     margin-bottom: 10px;    
     text-align: right;
 }
 
-.heading p {
+.gd {
     text-align: right;      
     line-height: 1.6;   
 }

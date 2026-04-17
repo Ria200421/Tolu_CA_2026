@@ -60,11 +60,29 @@ body {
     align-items: end;
 }
 .heading{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;    
+    
+    width: 90%;             
+    max-width: 600px;       
+    margin-left: auto;     
+    
+    color: aqua;
+    font-family: 'Segoe UI', sans-serif;
+}
 
-    align-self: flex end;
-    width:90%;
-    max-width:250px;
-    height:auto;
+.heading h2 {
+    margin-bottom: 10px;    
+    text-align: right;
+}
+
+.heading p {
+    text-align: right;      
+    line-height: 1.6;   
+}
+
+   
 }
 .undernote2{
     display: flex;

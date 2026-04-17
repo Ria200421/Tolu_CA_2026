@@ -1,4 +1,6 @@
 #Project_body{
+    display: flex;
+    
     background: linear-gradient(to top, #000000, #101129); 
     background-size: cover;
     position: relative; 
@@ -6,7 +8,7 @@
     text-decoration: wavy;
     color: aqua;
     max-width: 100%
-    height:auto
+    height:auto;
 }
 h1{
     color: rgb(78, 30, 30);

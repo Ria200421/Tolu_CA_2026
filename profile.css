@@ -1,137 +1,29 @@
-#Profile_body{
-            background-image: url("milkyway.png");
-        
-            background-size: cover;       
-            background-position: center;  
-            background-attachment: fixed; 
-            background-repeat: no-repeat;  
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            width: 90%;
-            max-width: 800px;
+
+#Profile_body {
+  
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: flex-start;
     
-            margin: 0 auto;  
-            padding: 40px;
-           background: rgba(0, 0, 0, 0.4); /* Optional: dark tint */
-           border-radius: 20px;
+
+    min-height: 100vh;     
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    background-image: url('milkyway.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000; 
+
+    color: aqua;
+    text-align: center;      
 }
 
-
-}
-.intro2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: aqua;
-    background-color: black; 
-    border: 70px solid rgb(0, 0, 0);
-    background-size: cover;
-    margin:0%;
-    padding: 0%;   
-}
-.profile2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: aqua;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 20px;
-    border: 10px solid rgb(0, 0, 0);
-    background: linear-gradient(to top, black, #101129);
-    padding: 20px;
-    border-radius: 20px;
-    text-align: left;
-    margin-left: 5%;
-    max-width: 450px;
-    width: 90%; 
-    margin-right: auto; 
-    font-family: cursive;
-}
-.profile2:hover{
-    background: linear-gradient(to top, black, #101129);
-    border: 10px solid rgb(0, 0, 0);
-    background-size: cover;
-    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(101, 122, 171, 0.5);
-}
-.profile3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: aqua;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 20px;
-    border: 10px solid rgb(0, 0, 0);
-    background: linear-gradient(to top, black, #101129);
-    max-width: 450px;
-    padding: 20px;
-    border-radius: 20px;
-    font-family: cursive;
-}
-.profile3:hover{
-    background: linear-gradient(to top, black, #101129);
-    border: 10px solid rgb(0, 0, 0);
-    background-size: cover;
-    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(101, 122, 171, 0.5);
-}
-.profile4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: aqua;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 20px;
-    border: 10px solid rgb(0, 0, 0);
-    background: linear-gradient(to top, black, #101129); 
-    background-size: cover;
-    max-width: 450px;
-    padding: 20px;
-    border-radius: 20px;
-    margin-left: 5%;
-    font-style: italic;
-    text-align: left;
-    width: 90%; 
-    margin-right: auto; 
-    font-family: cursive;
-}
-.profile4:hover{
-    background: linear-gradient(to top, black, #101129);
-    border: 10px solid rgb(0, 0, 0);
-    background-size: cover;
-    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(101, 122, 171, 0.5);
-}
-.skills{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 10px solid rgb(14, 37, 72);
-    background: linear-gradient(to top, black, #101129);
-    max-width: 400px;
-    padding: 20px;
-    border-radius: 50px;
-    text-align: left;
-    margin-left: 5%;
-    max-width: 450px;
-    width: 90%; 
-    margin-right: auto; 
-    font-family: cursive;
-}
-.skills:hover{
-    background: linear-gradient(to top, black, #101129);
-    border: 10px solid rgb(14, 37, 72);
-    background-size: cover;
-    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(101, 122, 171, 0.5);
+section, header, footer {
+    width: 90%;            
+    max-width: 1000px;     
+    margin-bottom: 20px;   
 }

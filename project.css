@@ -1,14 +1,11 @@
 #Project_body{
     display: flex;
-    
-    background: linear-gradient(to top, #000000, #101129); 
-    background-size: cover;
-    position: relative; 
-    z-index: 10; 
-    text-decoration: wavy;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
     color: aqua;
-    max-width: 100%
-    height:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top, black, #101129);
 }
 h1{
     color: rgb(78, 30, 30);

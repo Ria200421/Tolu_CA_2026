@@ -32,7 +32,7 @@ img {
     border-radius: 10%;
     margin-top: 20px;
 }
-.gd{
+.featured{
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
